@@ -1,0 +1,79 @@
+                                  /*Use Typography and Background Property*/
+body{
+font-size:16px;
+padding:0px;
+margin:0px;
+font-weight:normal;
+background-image:url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-thatguycraig000-1563356.jpg&fm=jpg"),url("https://static.vecteezy.com/system/resources/thumbnails/006/965/779/small/empty-top-wooden-table-and-sakura-flower-with-fog-and-morning-light-background-photo.jpg");
+background-repeat:no-repeat;
+background-size:100% 50%, 100% 50%;
+background-position:0% 0%, 50% 100%;
+}
+                           /*Use Color and Background Property*/
+#Pakistan{
+background-image:url("https://www.shutterstock.com/image-vector/water-surface-magic-neon-glow-600nw-2483884465.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:scroll;
+color:green;
+}
+#India{
+background-image:url("https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?cs=srgb&dl=pexels-francesco-ungaro-396547.jpg&fm=jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:scroll;
+opacity:.6;
+color:orange;
+}
+#China{
+background-image:url("https://www.shutterstock.com/image-vector/water-surface-magic-neon-glow-600nw-2483884465.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:scroll;
+color:red;
+}
+#United{
+background-image:url("https://www.shutterstock.com/image-vector/water-surface-magic-neon-glow-600nw-2483884465.jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:scroll;
+color:orange;
+}
+#Russia{
+background-image:url("https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?cs=srgb&dl=pexels-francesco-ungaro-396547.jpg&fm=jpg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:scroll;
+color:blue;
+}
+                           /*Use Text and Font Property*/
+h1{
+text-shadow:2px 2px 2px green;
+text-align:center;
+color:red;
+font-size:25px;
+font-weight:lighter;
+font-style:oblique
+}
+                           /*Use Text, Font and Padding Property*/
+p{
+padding:5px 10px 2px 10px;
+text-indent:10px;
+font-family:Monospace;
+font-size:18px;
+font-variant:small-caps;
+letter-spacing:1px;
+word-spacing:2px;
+Line-height:20px;
+}
+                         /*Use Border Margin,box-sizing and box-shadow Property OR Box Model Properties*/
+#Pakistan,#India,#China,#United,#Russia{
+border-radius:8px;
+margin: 30px 2px 10px 3px;
+border:4px solid green;
+width:400px;
+height:300px;
+overflow:scroll;
+box-sizing:border-box;
+box-shadow:3px 3px 10px 1px green;
+}
