@@ -1,0 +1,32 @@
+body{
+color:skyblue;
+padding:0px;
+margin:0px;
+font-weight:normal;
+background-image:url("https://asset.gecdesigns.com/img/background-templates/abstract-navy-red-background-design-sr17012401-1705501852665-cover.webp");
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+table{
+margin:100px auto;
+}
+table,th,td{
+padding:5px;
+border-collapse:collapse;
+border:2px solid yellow;
+caption-side:bottom;
+}
+th{
+background-color:gray;
+}
+td{
+background-color:green;
+}
+ol{
+list-style-position:outside;
+}
+ul{
+list-style-type:square;
+list-style-position:outside;
+}
