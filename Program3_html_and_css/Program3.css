@@ -1,0 +1,112 @@
+body{
+padding:0px;
+margin:0px;
+background-color:skyblue;
+}
+#Box1,#Box2,#Box3{
+margin-top:30px;
+border:10px dotted yellow;
+width:500px;
+height:200px;
+overflow:auto;
+}
+#Mini_Box1_1{
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:200px;
+height: 100px;
+background-image:repeating-linear-gradient(to left top,yellow 10%,gray 20%,pink 30%);
+}
+#Mini_Box1_2{
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:200px;
+height: 100px;
+background-image:repeating-linear-gradient(to bottom,yellow 10%,gray 30%,pink 50%);
+}
+#Mini_Box1_3{
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:200px;
+height: 100px;
+background-image:linear-gradient(to top right,yellow,gray,pink);
+}
+#Mini_Box1_4{
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:200px;
+height: 100px;
+background-image:linear-gradient(to top,yellow,gray,pink);
+}
+#Mini_Box2_1{
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:200px;
+height: 100px;
+background-image:radial-gradient(at top,yellow,gray,pink);
+}
+#Mini_Box2_2{
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:200px;
+height: 100px;
+background-image:repeating-radial-gradient(at 49px 16px,yellow 10%,gray 20%,pink 30%);
+}
+#Mini_Box2_3{
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:200px;
+height: 100px;
+background-image:radial-gradient(at bottom right,yellow,gray,pink);
+}
+#Mini_Box2_4{
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:200px;
+height: 100px;
+background-image:radial-gradient(at bottom ,yellow,gray,pink);
+}
+#Mini_Box3_1{
+border-radius:50%;
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:150px;
+height: 150px;
+background-image:conic-gradient(from 40deg,yellow,gray,pink);
+}
+#Mini_Box3_2{
+border-radius:50%;
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:150px;
+height: 150px;
+background-image:repeating-conic-gradient(yellow 10%,gray 20%,pink 30%);
+}
+#Mini_Box3_3{
+border-radius:50%;
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:150px;
+height: 150px;
+background-image:conic-gradient(from 20deg,yellow,gray,pink);
+}
+#Mini_Box3_4{
+border-radius:50%;
+margin-top:10px;
+margin-left:10px;
+border:2px solid red;
+width:150px;
+height: 150px;
+background-image:conic-gradient(from 360deg,yellow,gray,pink);
+}
