@@ -1,0 +1,57 @@
+
+/*Simple Selector*/
+p{
+color:red;
+}
+/*Group Selector*/
+small,big,i{
+font-size:20px;
+color:green;
+}
+/*Universal Selector*/
+*{
+margin:3px;
+margin:3px;
+}
+/*id Selector*/
+#id1{
+border:4px solid green;
+width:100%;
+height:100px;
+}
+/*Class Selector*/
+.class1{
+margin-top:5px;
+border:4px solid green;
+width:100%;
+height:100px;
+}
+.c1,.c2,.c3,.c4{
+border:2px solid green;
+width:100%;
+background-image:linear-gradient(yellow,skyblue);
+}
+/*Decendent Selector Selector*/
+.c1 p{
+color:green;
+}
+/*Child Selector Selector*/
+.c2>p{
+color:green;
+}
+/*Adjacent Sibling Selector*/
+.c3 pre+p{
+color:gray;
+}
+/*General Sibling Selector*/
+.c4 pre~p{
+color:gray;
+}
+input[type="text"]{
+border-color:green;
+color:skyblue;
+}
+input[type="date"]{
+border-color:green;
+color:skyblue;
+}
