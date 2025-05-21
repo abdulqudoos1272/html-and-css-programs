@@ -26,7 +26,7 @@ border:4px solid green;
 width:100%;
 height:100px;
 }
-.c1,.c2,.c3,.c4{
+.c1,.c2,.c3,.c4,.c8{
 border:2px solid green;
 width:100%;
 background-image:linear-gradient(yellow,skyblue);
@@ -47,6 +47,7 @@ color:gray;
 .c4 pre~p{
 color:gray;
 }
+/*Attribute Selector*/
 input[type="text"]{
 border-color:green;
 color:skyblue;
@@ -54,4 +55,35 @@ color:skyblue;
 input[type="date"]{
 border-color:green;
 color:skyblue;
+}
+/*First Letter Selector*/
+.c5 h1~p::first-letter{
+color:green;
+font-size:30px;
+}
+/*First Line Selector*/
+.c6 h1~p::first-line{
+color:green;
+font-size:20px;
+}
+/*Selection Selector*/
+.c6 h1+p::selection{
+background-color:yellow;
+color:black;
+}
+/*Placeholder Selector*/
+.c7 ::placeholder{
+color:green;
+font-style:oblique;
+}
+/*Before and After Selector*/
+.c8 p::before{
+content:"Before Selector Use Start : ";
+color:green;
+background-color:skyblue;
+}
+.c8 p::after{
+content:"After Selector Use End";
+color:green;
+background-color:skyblue;
 }
