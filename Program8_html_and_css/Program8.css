@@ -87,3 +87,56 @@ content:"After Selector Use End";
 color:green;
 background-color:skyblue;
 }
+                                  /*CSS FOR PROGRAM8-1*/
+/*Hover,Visited,Active,Target and Link*/
+header a{
+text-decoration:none;
+}
+header h1{
+box-sizing:border-box;
+}
+a:link{
+color:black;
+}
+a:hover{
+color:green;
+opacity:.6;
+}
+a:visited{
+color:skyblue;
+}
+a:active{
+color:red;
+background-color:gray;
+}
+header .as:target{
+border:3px solid green;
+color:skyblue;
+background-color:gray;
+}
+/*Pseudo class Selectores for Form*/
+input[type="text"]:focus{
+border:5px solid green;
+}
+input[type="radio"]:checked{
+box-shadow:0px 0px 4px 3px black;
+}
+input[type="checkbox"]:checked{
+box-shadow:0px 0px 6px 2px black;
+}
+input[type="text"]:required::gray{
+color:red;
+}
+input[type="age"]::in-range{
+border:5px solid gray;
+}
+input[type="age"]::out-of-range{
+border:5px solid red;
+}
+input[type="email"]:valid{
+color:skyblue;
+}
+input[type="email"]:invalid{
+color:red;
+}
+/**/
