@@ -106,3 +106,42 @@ transform:scale(1.2);
 .con .B6:hover{
 transform:scaleX(1.4);
 }
+.Animation{
+border:5px solid red;
+width:600px;
+height:500px;
+background-color:skyblue;
+}
+.Animation .A1{
+width:200px;
+height:200px;
+border:2px solid yellow;
+background-color:pink;
+animation-name:circles;
+animation-delay:0s;
+animation-duration:5s;
+animation-iteration-count:1;
+/*animation-direction:normal;
+animation-direction:reverse;
+animation-direction:alternate-reverse;*/
+animation-direction:alternate;
+animation-timing-function:linear;
+/*animation-timing-function:ease;
+animation-timing-function:ease-in;
+animation-timing-function:ease-out;
+animation-timing-function:ease-in-out;*/
+}
+@keyframes circles{
+0%,100%{
+transform:translate(0px,0px);
+}
+25%{
+transform:translate(385px,0px);
+}
+50%{
+transform:translate(385px,282px);
+}
+75%{
+transform:translate(0px,285px);
+}
+}
