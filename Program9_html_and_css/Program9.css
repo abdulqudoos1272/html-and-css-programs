@@ -1,10 +1,11 @@
 *{
-margin:0px;
+margin:2px;
 padding:0px;
+box-sizing:border-box;
 }
 .container{
 border:5px solid red;
-width:800px;
+width:750px;
 height:500px;
 display:flex;
 flex-direction:row;
@@ -40,4 +41,68 @@ transform-origin:top left;
 /*transform:rotatex(50deg);
 transform:rotatey(40deg);*/
 transform:rotate(10deg);
+}
+.tran_container{
+border:5px solid red;
+width:750px;
+height:500px;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:center;
+align-content:center;
+}
+.tran_box1{
+background-color:green;
+border:15px solid skyblue;
+width:280px;
+height:280px;
+transition-delay:0.3s;
+transition-duration:5s;
+transition-property:transform,border-radius;
+transition-timing-function:ease-in-out;
+}
+.tran_container .tran_box1:hover{
+background-color:skyblue;
+border-color:green;
+border-radius:50%;
+transform:rotate(120deg);
+}
+.con{
+border:5px solid red;
+width:500px;
+height:1400px;
+background-color:skyblue;
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+flex-direction:column;
+}
+.con .B1,.B2,.B3,.B4,.B5,.B6{
+width:200px;
+height:200px;
+border:2px solid yellow;
+margin:auto;
+background-color:pink;
+transition-delay:0.1s;
+transition-duration:2s;
+transition-property:transform;
+}
+.con .B1:hover{
+transform:translateX(145px);
+}
+.con .B2:hover{
+transform:rotate(180deg);
+}
+.con .B3:hover{
+transform:rotateX(180deg);
+}
+.con .B4:hover{
+transform:rotateY(180deg);
+}
+.con .B5:hover{
+transform:scale(1.2);
+}
+.con .B6:hover{
+transform:scaleX(1.4);
 }
